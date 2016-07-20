@@ -18,12 +18,12 @@
     * `sudo nano /etc/apt/apt.conf`
     * Add username and password to already stated proxy settings. Example:
         
-        Acquire::http::proxy "http://username:password@proxyhost:proxyport/";
-        Acquire::https::proxy "https://n.choudhary:naren@proxyhost:proxyport/";
+            Acquire::http::proxy "http://username:password@proxyhost:proxyport/";
+            Acquire::https::proxy "https://n.choudhary:naren@proxyhost:proxyport/";
 
 * Add `HTTP_PROXY` and `HTTPS_PROXY` env variables in `~/.bashrc`.
 
-    export HTTP_PROXY="http://username:password@proxyhosy:proxyport"
-    export HTTPS_PROXY="https://username:password@proxyhosy:proxyport"
+        export HTTP_PROXY="http://username:password@proxyhosy:proxyport"
+        export HTTPS_PROXY="https://username:password@proxyhosy:proxyport"
 
 

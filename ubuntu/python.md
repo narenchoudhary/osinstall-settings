@@ -14,7 +14,7 @@
 
 ## virtualenv Installation
 
-* sudo -HE pip install virtualenv
+* `sudo -HE pip install virtualenv`
 
 ## pip Packages
 

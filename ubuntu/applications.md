@@ -7,9 +7,9 @@
 ## Applications and Deb Packages
 
 
-For deb packages, run `sudo dpkg -i package_name.deb`.
-For tar.gz packages, extract them and put them in `/opt`. Then run the installer shell script (usually named `install.sh`).
-For run packes, simply run `package_name.run` file and follow the installation wizard instructions.
+For deb packages, run `sudo dpkg -i package_name.deb`.  
+For tar.gz packages, extract them and put them in `/opt`. Then run the installer shell script (usually named `install.sh`).  
+For run packages, simply run `package_name.run` file and follow the installation wizard instructions.  
 
 **In case of dependency errors, run `sudo apt-get -f install`.**
 
