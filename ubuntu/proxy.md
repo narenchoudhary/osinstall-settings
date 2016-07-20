@@ -34,4 +34,8 @@
         export HTTPS_PROXY="https://username:password@proxyhosy:proxyport"
         export https_proxy="https://username:password@proxyhosy:proxyport"
 
-
+* Configure wget proxy settings
+    * In file `/etc/wgetrc`, uncomment line `use_proxy=on`
+    * Uncomment `https_proxy=""` to `https_proxy="https://username:password@host:port/"`
+    * Uncomment `http_proxy=""` to `http_proxy="http://username:password@host:port/"`
+    * Uncomment `ftp_proxy=""` to `ftp_proxy="http://username:password@host:port/"`
