@@ -13,6 +13,12 @@
     * In Addresses section, click on Add.
     * Fill Address, Netmask, and Gateway.
     * Add Additional DNS servers.
+* Add proxy username and proxy password in `/etc/environment` file.
+    
+    * If proxy is unauthenticated, this step can be skipped.
+    
+        http_proxy="http://username:password@proxyhost:proxyport"
+        https_proxy="https://username:password@proxyhost:proxyport"
 
 * Configure apt-get proxy configuration.
     * `sudo nano /etc/apt/apt.conf`
@@ -24,6 +30,8 @@
 * Add `HTTP_PROXY` and `HTTPS_PROXY` env variables in `~/.bashrc`.
 
         export HTTP_PROXY="http://username:password@proxyhosy:proxyport"
+        export http_proxy="http://username:password@proxyhosy:proxyport"
         export HTTPS_PROXY="https://username:password@proxyhosy:proxyport"
+        export https_proxy="https://username:password@proxyhosy:proxyport"
 
 

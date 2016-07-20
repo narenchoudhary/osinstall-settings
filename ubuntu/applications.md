@@ -2,7 +2,7 @@
 
 ## apt-get command
 
-    sudo apt-get install vim git vlc flashplugin-installer bleachbit gdebi-core ubuntu-restricted-extras build-essential aptitude
+    sudo apt-get install vim git vlc flashplugin-installer bleachbit gdebi-core ubuntu-restricted-extras build-essential aptitude synaptic gparted
 
 ## Applications and Deb Packages
 
@@ -31,7 +31,7 @@ For run packages, simply run `package_name.run` file and follow the installation
 * Run `sudo dpkg -i dropbox_.*.deb`
 * In case of unmet dependencies, run `sudo apt-get install -f install`
 * [Optional] Install `python-gpgme`, Use `sudo apt-get install python-gpgme`.
-* If you haven't configured `HTTP_PROXY` and `HTTPS_PROXY`, configure them.
+* If you haven't configured `HTTP_PROXY` and `HTTPS_PROXY` (and `http_proxy` and `https_proxy`), configure them.
 * Start Dropbox. Use `dropbox start -i`.
 * If Dropbox deamon is showing connection error, run `sudo dropbox proxy manual http proxyhost proxy_port username passowrd`. See [this](http://askubuntu.com/a/718794).
 * Sign In.
@@ -41,9 +41,9 @@ For run packages, simply run `package_name.run` file and follow the installation
 * Download setup from [here](https://www.foxitsoftware.com/products/pdf-reader/).
 * Installation steps:
 
-    # cd /tmp
-    # gzip -d 'FoxitReader_version_Setup.run.tar.gz'
-    # tar xvf 'FoxitReader_version_Setup.run.tar'
-    # ./'FoxitReader_version_Setup.run'
+    $ cd /tmp
+    $ gzip -d 'FoxitReader_version_Setup.run.tar.gz'
+    $ tar xvf 'FoxitReader_version_Setup.run.tar'
+    $ ./'FoxitReader_version_Setup.run'
 
 
