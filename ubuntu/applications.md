@@ -41,9 +41,9 @@ For run packages, simply run `package_name.run` file and follow the installation
 * Download setup from [here](https://www.foxitsoftware.com/products/pdf-reader/).
 * Installation steps:
 
-    $ cd /tmp
-    $ gzip -d 'FoxitReader_version_Setup.run.tar.gz'
-    $ tar xvf 'FoxitReader_version_Setup.run.tar'
-    $ ./'FoxitReader_version_Setup.run'
+        $ cd /tmp
+        $ gzip -d 'FoxitReader_version_Setup.run.tar.gz'
+        $ tar xvf 'FoxitReader_version_Setup.run.tar'
+        $ ./'FoxitReader_version_Setup.run'
 
 

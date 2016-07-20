@@ -17,8 +17,8 @@
     
     * If proxy is unauthenticated, this step can be skipped.
     
-        http_proxy="http://username:password@proxyhost:proxyport"
-        https_proxy="https://username:password@proxyhost:proxyport"
+            http_proxy="http://username:password@proxyhost:proxyport"
+            https_proxy="https://username:password@proxyhost:proxyport"
 
 * Configure apt-get proxy configuration.
     * `sudo nano /etc/apt/apt.conf`
