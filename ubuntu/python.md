@@ -16,6 +16,14 @@
 
 * `sudo -HE pip install virtualenv`
 
+## PIL Installation
+
+        $ sudo apt-get build-dep python-imaging
+        $ sudo apt-get install libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev
+        $ sudo apt-get install python-pip
+        # or
+        $ sudo pip install Pillow
+
 ## pip Packages
 
 * Django: `sudo -HE pip install django`

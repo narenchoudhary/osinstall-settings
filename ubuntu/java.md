@@ -7,7 +7,7 @@
     $ sudo apt-get update
     $ sudo apt-get install oracle-java8-installer
 
-# Maunally install Java8
+# Manually install Java8
 
         
         # this approach may give proxy errors

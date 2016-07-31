@@ -2,7 +2,7 @@
 
 ## apt-get command
 
-    sudo apt-get install vim git vlc flashplugin-installer bleachbit gdebi-core ubuntu-restricted-extras build-essential aptitude synaptic gparted
+    sudo apt-get install vim git vlc flashplugin-installer bleachbit gdebi-core ubuntu-restricted-extras build-essential aptitude synaptic gparted tree ntp ntpdate
 
 ## Applications and Deb Packages
 
@@ -22,6 +22,7 @@ For run packages, simply run `package_name.run` file and follow the installation
 * [Foxit Reader](https://www.foxitsoftware.com/products/pdf-reader/)
 * [Viber](http://www.viber.com/en/products/linux)
 * [Skype](https://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=ubuntu64)
+* [Gitter](https://gitter.im/apps)
 
 ## Applications with some installation workarounds
 

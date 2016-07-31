@@ -15,3 +15,16 @@
     # double-check with Sys.getenv()
     $ Sys.getenv(http_proxy)
     $ Sys.getenv(https_proxy)
+
+## Utilities
+
+* Install Java, C, C++ and Fortran as many packages depend on these.
+        
+        # Check java.md for Java installation
+        # C/C++
+        $ sudo apt-get install gcc g++
+        $ sudo apt-get install gfortran
+ 
+## Packages
+
+    install.packages(c("plyr", "dplyr", "tidyr", "ggplot2", "lubridate", "Rcpp", "xlsx", "shiny", "magrittr", "devtools", "foreign", "stringi", "stringr"), dependencies=T)
