@@ -10,6 +10,10 @@
     " On pressing tab, insert 4 spaces
     set expandtab
     set number
+    set colorcolumn=80                                                                                                                           
+    set cursorline                                                                  
+    set cursorcolumn                                                                
+    let g:airline_powerline_fonts = 1 
 
 ## Stop using arrows
 
