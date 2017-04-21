@@ -24,3 +24,13 @@ Put these lines in `~/.vimrc`:
     noremap <Left> <NOP>
     noremap <Right> <NOP>
 
+## To stop vim from hanging when ctrl+S is pressed accidently
+
+One time solution:  
+Press CTRL+Q
+
+Better solution:  
+Append `stty -ixon` in a startup script.
+
+Source: https://unix.stackexchange.com/a/12108
+
