@@ -20,7 +20,7 @@
 
         $ sudo apt-get build-dep python-imaging
         $ sudo apt-get install libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev
-        $ sudo apt-get install python-pip
+        $ sudo apt-get install python-pillow
         # or
         $ sudo pip install Pillow
 
